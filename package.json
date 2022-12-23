@@ -1,0 +1,23 @@
+{
+  "name": "chenjg-blog",
+  "version": "1.0.0",
+  "description": "gn",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.32"
+  },
+  "devDependencies": {
+    "sass": "^1.57.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}
